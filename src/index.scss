@@ -1,7 +1,8 @@
-$fa-font-path: "~@fortawesome/fontawesome-free/webfonts" !default;
-@import "~@fortawesome/fontawesome-free/scss/fontawesome.scss";
-@import "~@fortawesome/fontawesome-free/scss/brands.scss";
-@import "~@fortawesome/fontawesome-free/scss/solid.scss";
+$fa-font-path: "~@fortawesome/fontawesome-pro/webfonts" !default;
+@import "~@fortawesome/fontawesome-pro/scss/fontawesome.scss";
+@import "~@fortawesome/fontawesome-pro/scss/brands.scss";
+@import "~@fortawesome/fontawesome-pro/scss/duotone.scss";
+@import "~@fortawesome/fontawesome-pro/scss/solid.scss";
 @import "~unsemantic/assets/sass/unsemantic-grid-responsive.scss";
 
 @import "stylesheets/chem-elements.scss";
