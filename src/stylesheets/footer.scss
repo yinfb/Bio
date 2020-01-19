@@ -4,16 +4,16 @@
 }
 
 .copyright {
-    background: #354c64;
-    color: #aaa;
+    background: #29b6f6;
+    color: #fff;
     font-size: 0.9em;
     line-height: 2em;
-    padding: 0.5em 1em;
+    padding: 0.5em 1.5em;
 }
 
 .hosting {
-    background: #354c64;
-    color: #ddd;
+    background: #4fc3f7;
+    color: #fff;
     font-size: 0.9em;
     font-weight: normal;
     display: block;
@@ -21,6 +21,10 @@
     text-decoration: none;
 }
 
+.forkbg{
+    background: #81d4fa;
+}
+
 .hosting .link {
-    color: #acd;
+    color: #fff;
 }

@@ -13,8 +13,12 @@ $fa-font-path: "~@fortawesome/fontawesome-free/webfonts" !default;
 @import "stylesheets/labels.scss";
 
 body {
-    background: url('./assets/images/header-background.svg') #466685;
-    background-size: cover;
+    background-image: linear-gradient(90deg, #81d4fa 17px, rgba(129, 212, 250, 0) 0),
+                    linear-gradient(90deg, #29b6f6 31px, rgba(41, 182, 246, 0) 0),
+                    linear-gradient(90deg, #4fc3f7 57px, rgba(79, 195, 247, 0) 0);
+    //background: #29b6f6;
+    background-size: 83px 100%, 61px 100%, 47px 100%;
+    background-position: center;
 
     font-size: 1em;
     margin: 0;
@@ -33,11 +37,11 @@ html {
 }
 
 #container {
+    box-shadow: 0 0 0.2em 0.2em rgba(0, 0, 0, 0.125);
     background-position: center;
-    box-shadow: 0 0 0.15em 0.15em rgba(0, 0, 0, 0.125);
     margin: 0 auto;
     margin-bottom: 1em;
-    margin-top: -1em;
+    margin-top: 1em;
     max-width: 64em;
 }
 
@@ -49,10 +53,12 @@ $section-border-radius: 2em;
 
 #container, #container>*:first-child {
     border-top-left-radius: $section-border-radius;
+    border-top-right-radius: $section-border-radius;
 }
 
 #container, #container>*:last-child, #container>*:last-child>*:last-child {
     border-bottom-right-radius: $section-border-radius;
+    border-bottom-left-radius: $section-border-radius;
 }
 
 .header .small-labels .group::before, .header .small-labels .label::before {
